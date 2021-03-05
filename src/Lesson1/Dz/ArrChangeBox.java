@@ -16,5 +16,6 @@ public class ArrChangeBox<T> {
         arr[i] = arr[j];
         arr[j] = x;
         System.out.println(Arrays.toString(arr));
+
     }
 }

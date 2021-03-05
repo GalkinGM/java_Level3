@@ -24,7 +24,6 @@ public class Box<T extends Fruits> {
         return (Math.abs(getWeight()-otherBox.getWeight())<0.000001f);
     }
 
-
     // TODO: добавление всех значений из одного списка в другой и очистка первого списка
 
     public void replaceAllFruitsToOtherBox(Box<T> otherBox) {

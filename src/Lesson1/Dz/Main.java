@@ -76,25 +76,12 @@ public class Main {
         System.out.println("appleBox1: " + appleBox1.getWeight());
         System.out.println("appleBox2: " + appleBox2.getWeight());
 
-
-
-
-
     }
-
-
-
-
-
-
 
 //        List <Integer> gg = new ArrayList<>();
 //        gg.addAll(Arrays.asList(1, 2, 3, 4, 5));
 //
 //        System.out.println(gg.get(2));
-
-
-
 
     public static <T> List<T> asList(T... arr) {
         ArrayList<T> ts = new ArrayList<T>(Arrays.asList(arr));
@@ -104,9 +91,6 @@ public class Main {
     public static <A> A getListElement(List<A> list, int i) {
         return list.get(i);
     }
-
-
-
 
 }
 
