@@ -6,9 +6,6 @@ import java.util.List;
 
 public class Main {
 
-
-    private static Object ArrayList;
-
     public static void main(String[] args) {
 
         // TODO: Написать метод, который меняет два элемента массива местами
